@@ -1,0 +1,12 @@
+.width-full-img {
+  --bs-gutter-x: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn-login:hover {
+  background-color: black;
+}
