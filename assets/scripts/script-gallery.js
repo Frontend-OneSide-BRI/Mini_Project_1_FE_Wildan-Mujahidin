@@ -143,3 +143,36 @@ categoryButtons.forEach((button) => {
 });
 
 renderImages("animal");
+
+// Login-Logout
+
+const loginButton = document.getElementById("loginButton");
+const logoutButton = document.getElementById("logoutButton");
+const loginBtnSubmit = document.getElementById("login-submit");
+const containerBtnLogin = document.getElementById("buttonContainer");
+
+function toggleLoginState() {
+  console.log(loginButton);
+  containerBtnLogin.innerHTML = `<button
+  id="logoutButton"
+  class="btn btn-outline-danger d-none d-lg-block btn-login"
+>
+  Logout
+</button>`;
+}
+loginBtnSubmit.addEventListener("click", toggleLoginState);
+
+function toggleLogoutState() {
+  console.log(logoutButton);
+  containerBtnLogin.innerHTML = `<button
+  id="loginButton"
+  class="btn btn-outline-success d-none d-lg-block btn-login"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+  data-bs-whatever="@fat"
+>
+  Login
+</button>`;
+}
+
+logoutButton.addEventListener("click", toggleLogoutState);

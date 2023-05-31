@@ -14,7 +14,7 @@ p {
 .section-search {
   height: 20rem;
   display: flex;
-  background-image: url(../assets/images/gallery/fma_visual_gps_insights.jpg);
+  background-image: url(../images/gallery/fma_visual_gps_insights.jpg);
   background-size: cover;
   background-position: center;
   align-items: center;
