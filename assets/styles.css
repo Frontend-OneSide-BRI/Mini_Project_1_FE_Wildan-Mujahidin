@@ -10,3 +10,11 @@ p {
 .btn-login:hover {
   background-color: black;
 }
+
+.card-img-top {
+  transition: transform 0.5s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.02);
+}
