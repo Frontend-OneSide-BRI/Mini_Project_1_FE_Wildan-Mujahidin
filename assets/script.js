@@ -1,3 +1,21 @@
+const dataCarousel = [
+  {
+    id: 1,
+    category: "animal",
+    img: "assets/images/carousel1.jpg",
+  },
+  {
+    id: 2,
+    category: "human",
+    img: "assets/images/carousel2.jpg",
+  },
+  {
+    id: 3,
+    category: "nature",
+    img: "assets/images/carousel3.jpg",
+  },
+];
+
 const dataImages = [
   {
     id: 1,
@@ -71,4 +89,21 @@ dataImages.forEach(function (image) {
     </div>
   `;
   imageContainer.appendChild(imageElement);
+});
+
+let imageCarousel = document.getElementById("carousel");
+
+dataCarousel.forEach(function (image, index) {
+  let div = document.createElement("div");
+  div.classList.add("carousel-item");
+
+  if (index === 0) {
+    div.classList.add("active");
+  }
+
+  div.innerHTML = `
+    <img src="${image.img}" class="d-block w-100" alt="..."/>
+  `;
+
+  imageCarousel.appendChild(div);
 });

@@ -18,3 +18,38 @@ p {
 .card-img-top:hover {
   transform: scale(1.02);
 }
+
+.section-search {
+  height: 20rem;
+  display: flex;
+  background-color: azure;
+  align-items: center;
+}
+
+.input-group-lg {
+  height: fit-content;
+}
+
+.nav-tab .active {
+  transition: transform 0.5s;
+  transform: scale(1.5);
+}
+
+a:hover {
+  transition: transform 0.5s;
+  transform: scale(1.2);
+}
+
+.category-button:hover {
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform: scale(1.5);
+}
+
+#album div {
+  transition: transform 0.5s;
+}
+
+#album div:hover {
+  transform: scale(1.02);
+}
