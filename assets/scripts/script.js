@@ -77,6 +77,54 @@ const dataImages = [
     category: "art",
     img: "assets/images/gallery/GettyImages-1465230244.jpg",
   },
+
+  {
+    id: 13,
+    category: "human",
+    img: "assets/images/gallery/GettyImages-99307925.jpg",
+  },
+
+  {
+    id: 14,
+    category: "human",
+    img: "assets/images/gallery/GettyImages-565783421.jpg",
+  },
+
+  {
+    id: 15,
+    category: "art",
+    img: "assets/images/gallery/GettyImages-645277871.jpg",
+  },
+
+  {
+    id: 17,
+    category: "nature",
+    img: "assets/images/gallery/GettyImages-1156218593.jpg",
+  },
+
+  {
+    id: 18,
+    category: "animal",
+    img: "assets/images/gallery/GettyImages-1311620739.jpg",
+  },
+
+  {
+    id: 19,
+    category: "human",
+    img: "assets/images/gallery/GettyImages-1325997469.jpg",
+  },
+
+  {
+    id: 20,
+    category: "nature",
+    img: "assets/images/gallery/GettyImages-1379810322.jpg",
+  },
+
+  {
+    id: 21,
+    category: "human",
+    img: "assets/images/gallery/GettyImages-1334959064.jpg",
+  },
 ];
 
 let imageContainer = document.getElementById("album");
